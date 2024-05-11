@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ebf0f7;
+}
+
+/* .header1 {
+    width: 100%;
+    margin: 0;
+    height: 50px;
+    color: white;
+    background-color: blue;
+}
+
+.header2 {
+    background-color: white;
+    height: 20px;
+} */
+
+.container-utama {
+    width: 1000px;
+    margin: auto;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.container2 {
+    display: flex;
+}
+
+.container2 .kembali {
+    justify-content: flex-end;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: row; /* Mengubah arah menjadi horizontal */
+    gap: 20px; /* Menambahkan jarak antara masing-masing sidebar */
+}
+
+.sidebar1 {
+    /* Tidak perlu lagi menggunakan order, karena urutan sudah horizontal */
+    margin-right: 20px; /* Menambahkan jarak di sebelah kanan sidebar1 */
+    flex: 0 0 auto; /* Menetapkan lebar sidebar1 sesuai konten */
+}
+
+
+.sidebar2 {
+    order: 2; /* Mengatur urutan sidebar2 */
+    margin-bottom: 20px; /* Menambahkan jarak di bawah sidebar2 */
+}
+
+.sidebar3 {
+    order: 3; /* Mengatur urutan sidebar3 */
+}
+
+
+
+img {
+    margin-left: 170px;
+}
+
+.header1 {
+    display: flex;
+    align-items: center;
+}
+
+.header1 img {
+    margin-right: 10px;
+}
+
+.sidebar1 {
+    background-color: #c4d7f5;
+    color: black;
+}
+
+.sidebar2 {
+    background-color: #c4d7f5;
+}
+
+.sidebar3 {
+    margin-top: 10px;
+}
+
+.sidebar3 table{
+    border-collapse: collapse;
+    border: 1px solid black;
+    
+}
+
+
+

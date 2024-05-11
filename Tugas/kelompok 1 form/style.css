@@ -1,0 +1,15 @@
+.container {
+	width: 960px;
+	margin: auto;
+	background-color: #ededeb;
+}
+
+body {
+	height: 2000px;
+}
+
+.bar2 {
+	width: 960px;
+	height: 20px;
+	background-color: #abf7a8;
+}

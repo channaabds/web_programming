@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Formulir Aplikasi Pembukaan Rekening Investor BNI</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<div class="container">
+		
+		<div class="header">
+
+			<h1 class="judul">
+				Formulir Aplikasi Pembukaan Rekening Investor (Perorangan)
+				<i>INDIVIDUAL INVESTOR ACCOUNT OPENING APPLICATION FORM</i>
+			</h1>
+			
+		</div>
+
+		<p><b>mohon diisi dengan seksama</b></p>
+
+		<label for="kode_nasabah">Kode Nasabah / <i>Client Code</i></label><input type="text" id="kode_nasabah" style="margin-left: 10px; width: 30px; ">
+		<br>
+
+		<p>Daftar Internet Banking?</p>
+		<p><i>Sign Up for Internet Banking</i></p>
+		<input type="radio" id="ya" name="sign_up" value="ya"> <label for="ya">Ya / <i>Yes</i></label>
+		<input type="radio" id="no" name="sign_up" value="no"> <label for="no">Tidak / <i>No</i></label>
+		<p><i>*) diisi oleh petugas Filed by the officeri</i></p>
+
+		<br><br>
+		<input type="radio" id="CIF_baru" name="CIF" value="CIF_baru"> <label for="CIF_baru">CIF Baru / <i>New CIF</i></label>
+
+
+		<input type="radio" id="CIF_lama" name="CIF" value="CIF_lama"> <label for="CIF_lama">CIF Lama / <i>Existing CIF</i></label> <br>
+
+		<label for="No_CIF">No CIF / <i>CIF Number *</i></label><input type="text" id="No_CIF" style="margin-left: 10px; "> <br>
+
+		<label for="No_SID">No SID / <i>SID Number *</i></label><input type="text" id="No_SID" style="margin-left: 10px; ">
+		<br>
+
+		<label for="No_sub_rek">No Sub Rekening Efek / <i>Securities Account Number *</i></label><input type="text" id="No_sub_rek" style="margin-left: 10px; ">
+
+		<p>No Rekening di BNI / BNI <i>Account Number *)</i></p>
+
+		<label for="baru">Baru / <i>New</i></label><input type="text" id="baru" style="margin-left: 10px; "> <br>
+		<label for="rek_yang_ada">Rek. Yang ada / <i>Existing Account</i></label><input type="text" id="rek_yang_ada" style="margin-left: 10px; "> <br>		
+
+		<div class="bar2">
+			<p><b>DATA PEMOHON / <i>APPLICANT DATA</b></i></p>
+		</div>
+
+		<br><label for="nama_depan">Nama Depan / <i>First Name</i></label><input type="text" id="nama_depan" style="margin-left: 10px; "> <br>
+
+		<label for="nama_belakang">Nama Belakang / <i>Last Name</i></label><input type="text" id="nama_belakang" style="margin-left: 10px; "> <br>		
+
+		<p><b>(Isi Nama susuai Kartu Identitas / <i> Fill Name as stated in the ID)</i></b></p>
+
+		<label for="nama_alias">Nama Alias (jika ada) / <i>Alias Name (if any)</i></label><input type="text" id="nama_alias" style="margin-left: 10px; "> <br>
+
+		<p>Jenis Kelamin / <i>Sex</i></p>
+		<input type="radio" id="laki" name="JK" value="laki"><label for="laki">Laki-laki / <i>Male</i></label><br>
+		<input type="radio" id="cewe" name="JK" value="cewe"><label for="cewe">Perempuan / <i>Female</i></label>  
+
+		<p>Status Pernikahan / <i>Marital Status</i></p>
+		<input type="radio" id="menikah" name="status" value="menikah"><label for="menikah">Menikah / <i>Married</i></label><br>
+		<input type="radio" id="lajang" name="status" value="lajang"><label for="lajang">Lajang / <i>Single</i></label><br>
+		<input type="radio" id="janda-duda" name="status" value="janda-duda"><label for="janda-duda">Janda/Duda  <i>(Widow/Widower)</i></label> 
+
+		<p>Tempat/Tanggal Lahir <i>(Place/Date of Birth)</i></p>
+		<input type="date">
+
+		<br>
+		<br>
+
+		<label for="ibu_kandung"><b>Nama Gadis Ibu Kandung / <i>Mother's Maiden Name</b></i></label><input type="text" id="ibu_kandung" style="margin-left: 10px; "> <br>
+
+		<p>Tanda pengenal / <i>Identity</i> :</p>
+		<input type="radio" id="KTP" name="pengenal" value="KTP"><label for="KTP">KTP / <i>ID Card</i></label><br>
+		<input type="radio" id="KITAS" name="pengenal" value="KITAS"><label for="KITAS">KITAS/KITAP <i>(Temporary Residence Visa)</i></label><br>
+		<input type="radio" id="Paspor" name="pengenal" value="Paspor"><label for="Paspor">Paspor / <i>Passport</i></label>
+
+		<br><label for="no_id_number">No / <i>ID Number</i></label><input type="text" id="no_id_number" style="margin-left: 10px; ">
+
+		<br>
+		<label for="tanggal_berlaku">Berlaku s/d <i>(Expiry Date)</i></label><input type="date" id="tanggal_berlaku">
+		<br>
+		<input type="checkbox" name="seumur_hidup" value="seumur_hidup"> <label for="seumur_hidup">Seumur Hidup</label>
+
+		<br>
+		<label for="tempat_terbit">Tempat Diterbitkan / <i>Place of Issuance</i></label><input type="text" id="tempat_terbit" style="margin-left: 10px; ">
+
+		<br>
+		<label for="tanggal_terbit">Tanggal Diterbitkan / <i>Date of Issuance</i></label><input type="date" id="tanggal_terbit">
+
+		<br>
+		<p>Kewarganegaraan / <i>Nationality</i>: </p> 
+		<input type="radio" name="kewarganegaraan" value="WNI"> <label for="kewarganegaraan">WNI</label>
+		<br>
+		<input type="radio" name="kewarganegaraan" value="WNA"> <label for="kewarganegaraan">WNA</label> <label for="negara_asal">, Negara Asal / <i>Native Country</i></label> <input type="text" id="negara_asal">
+
+		<p>Agama / <i>Religion</i></p>
+		<input type="radio" id="Islam" name="agama" value="Islam"><label for="Islam">Islam / <i>Moslem</i></label><br>
+		<input type="radio" id="Budha" name="agama" value="Budha"><label for="Budha">Buddha / <i>Buddhist</i></label><br>
+		<input type="radio" id="Kristen" name="agama" value="Kristen"><label for="Kristen">Kristen / <i>Christian</i></label><br>
+		<input type="radio" id="Hindu" name="agama" value="Hindu"><label for="Hindu">Hindu / <i>Hindu</i></label><br>
+		<input type="radio" id="Katolik" name="agama" value="Katolik"><label for="Katolik">Katolik / <i>Catholic</i></label><br>
+		<input type="radio" id="Kong Hu Cu" name="agama" value="Kong Hu Cu"><label for="Kong Hu Cu">Kong Hu Cu / <i>Kong Hu Cu</i></label><br>
+		<input type="checkbox" id="lainnya" value="lainnya"><label for="lainnya">Lainnya : </label> <input type="text" id="lainnya">
+
+		<p>NPWP / <i>Tax ID Number</i>:</p>
+		<input type="radio" id="ada" name="npwp" value="ada"> <label for="ada">Ada / <i>Possess</i></label>
+		<input type="radio" id="tidak_ada" name="npwp" value="tidak_ada"> <label for="tidak_ada">Tidak Ada / <i>Not Possess</i></label>
+		<br><label for="no">No</label> <input type="text" id="no">
+
+		<br><label for="tempat">Tempat Diterbitkan / <i>Place of Issuance</i></label> <input type="text" id="tempat">
+
+		<br><label for="tanggal">Tanggal Diterbitkan / <i>Date of Issuance</i></label><input type="date" id="tanggal">
+
+		<p>Alamat (sesuai tanda pengenal) <i>Addres as stated in ID Card</i></p>
+		
+			
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+	</div>
+	
+</body>
+</html>

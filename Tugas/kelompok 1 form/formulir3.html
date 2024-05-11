@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Formulir page 3 aplikasi pembukaan rekening BNI</title>
+
+	<style>
+
+		body {
+			font-family: arial;
+			color: #04db89;
+			height: 2000px;
+		}
+
+		h1 {
+			text-align: center;
+			font-size: 16px;
+		}
+		.container {
+			width: 800px;
+			margin: auto;
+			background-color: #ededeb;
+		}
+
+		.header {
+			width: 800px;
+			height: 70px;
+			background-color: #eddc6d;
+		}
+
+		p {
+			font-size: 14px;
+			font-weight: bold;
+		}
+
+		label {
+			font-size: 14px;
+			font-weight: bold;
+		}
+
+		.kanan1 {
+			float: right;
+			margin-right: 500px;
+			position: relative;
+			bottom: 45px;
+		}
+
+		.kanan2 {
+			float: right;
+			margin-right: 430px;
+			position: relative;
+			bottom: 110px;	
+		}
+
+		.kanan3 {
+			float: right;
+			margin-right: 200px;
+			position: relative;
+			bottom: 175px;	
+		}
+
+		.kanan4 {
+			float: right;
+			margin-right: 50px;
+			position: relative;
+			bottom: 110px;	
+		}
+
+		.kanan5 {
+			float: right;
+			margin-right: 200px;
+			position: relative;
+			bottom: 175px;	
+		}
+
+		.kanan6 {
+			float: right;
+			margin-right: 50px;
+			position: relative;
+			bottom: 110px;	
+		}
+
+		.kanan7 {
+			float: right;
+			margin-right: 430px;
+			position: relative;
+			bottom: 110px;	
+		}
+
+		.kanan8 {
+			float: right;
+			margin-right: 200px;
+			position: relative;
+			bottom: 175px;	
+		}
+
+		.kanan9 {
+			float: right;
+			margin-right: 30px;
+			position: relative;
+			bottom: 110px;	
+		}	
+
+		.kanan10 {
+			float: right;
+			margin-right: -400px;
+			position: relative;
+			bottom: 110px;	
+		}		
+
+		button {
+			background-color: #04db89;
+			color: white;
+			font-weight: bold;
+			border: #04db89;
+
+		}
+
+
+		/*.clear {
+	clear: left;
+}*/
+
+
+/* Menggunaka micro clearfix */
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+
+
+
+
+	</style>
+</head>
+<body>
+
+	<div class="container cf">
+		
+		<div class="header"></div>
+
+		<h1>FORMULIR APLIKASI PEMBUKAAN REKENING INVESTOR (PERORANGAN)</h1>
+
+		<br><br>
+		<p>Alamat Tempat Tinggal Terkini *</p>
+		<input type="text" id="no.rek">
+
+		<div class="kanan1">
+			<p>Rt *</p>
+			<input type="number" id="rt" style="width:30px;">
+		</div>
+
+		<div class="kanan2">
+			<p>Rw *</p>
+			<input type="number" id="rt" style="width:30px;">
+		</div>
+
+		<div class="kanan3">
+			<p>Desa/Kelurahan *</p>
+			<input type="text" id="desa">
+		</div>
+
+		<p>Kecamatan *</p>
+		<input type="text" id="kecamatan">
+
+		<div class="kanan4">
+			<p>Kabupaten/Kota *</p>
+			<input type="text" id="kabupaten">
+		</div>
+
+		<div class="kanan5">
+			<p>Kode Pos *</p>
+			<input type="text" id="kode_pos">
+		</div>
+
+		<p>Provinsi *</p>
+		<input type="text" id="provinsi">	
+
+		<div class="kanan6">
+			<p>Negara *</p>
+			<input type="text" id="negara">
+		</div>	
+
+		<p>Status Tempat Tinggal *</p>
+		<select style="width: 150px;">
+			<option value="Milik Sendiri">Milik Sendiri</option>
+			<option value="Milik Keluarga">Milik Keluarga</option>
+			<option value="Rumah Dinas">Rumah Dinas</option>
+			<option value="Sewa">Sewa</option>
+		</select>
+
+		<div class="kanan7">
+			<p>Nomor Telepon *</p>
+			<input type="text" id="no_telp">
+		</div>
+
+		<div class="kanan8">
+			<p>Nomor HP *</p>
+			<input type="text" id="no_hp">
+		</div>
+
+		<p>Email *</p>
+		<input type="Email" id="email">
+
+		<div class="kanan9">
+			<p>Latar Belakang Pendidikan *</p>
+			<select style="width: 150px;">
+			<option value="SD">SD</option>
+			<option value="SMP">SMP</option>
+			<option value="SMA">SMA</option>
+			<option value="D1-D2">D1-D2</option>
+			<option value="D3">D3</option>
+			<option value="S1">S1</option>
+			<option value="S2">S2</option>
+			<option value="S3">S3</option>
+		</select>
+		</div>
+
+		<div class="kanan10">
+			<p>Latar Belakang Pekerjaan *</p>
+			<select style="width: 150px;">
+			<option value="Pelajar">Pelajar</option>
+			<option value="Mahasiswa">Mahasiswa</option>
+			<option value="Pegawai Swasta">Pegawai Swasta</option>
+			<option value="Ibu Rumah Tangga">Ibu Rumah Tangga</option>
+			<option value="Pegawai Negeri">Pegawai Negeri</option>
+			<option value="Guru">Guru</option>
+			<option value="Wiraswasta">Wiraswasta</option>
+			<option value="TNI / Polisi">TNI / Polisi</option>
+		</select>
+		</div>
+
+
+
+
+
+
+		
+		<br><br><br><br><br><br><br>
+		<a href="formulir2.html"> <button>Kembali</button> </a>
+
+		<a href="submit.html"><button style="margin-left:500px;">Submit</button></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</div>
+	
+</body>
+</html>

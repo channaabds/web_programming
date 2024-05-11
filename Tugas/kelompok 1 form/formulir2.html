@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Formulir page 2 aplikasi pembukaan rekening BNI</title>
+
+	<style>
+
+		body {
+			font-family: arial;
+			color: #04db89;
+			height: 2000px;
+		}
+
+		h1 {
+			text-align: center;
+			font-size: 16px;
+		}
+		.container {
+			width: 800px;
+			margin: auto;
+			background-color: #ededeb;
+		}
+
+		.header {
+			width: 800px;
+			height: 70px;
+			background-color: #eddc6d;
+		}
+
+		p {
+			font-size: 14px;
+			font-weight: bold;
+		}
+
+		label {
+			font-size: 14px;
+			font-weight: bold;
+		}
+
+		.kanan1,{
+			float: right;
+			margin-right: 200px;
+			position: relative;
+			bottom: 45px;
+		}
+
+		.kanan2 {
+			float: right;
+			margin-right: 500px;
+			position: relative;
+			bottom: 45px;
+		}
+
+		.kanan3 {
+			float: right;
+			margin-right: 200px;
+			position: relative;
+			bottom: 110px;
+		}
+
+		.kanan4{
+			float: right;
+			margin-right: 500px;
+			position: relative;
+			bottom: 110px;
+		}
+
+		.kanan5{
+			float: right;
+			margin-right: 400px;
+			position: relative;
+			bottom: 110px;
+		}
+
+		.kanan6{
+			float: right;
+			margin-right: 190px;
+			position: relative;
+			bottom: 147px;
+		}
+
+		.kanan7 {
+			float: right;
+			margin-right: 100px;
+			position: relative;
+			bottom: 90px;
+		}
+
+		.kanan8 {
+			float: right;
+			margin-right: -250px;
+			position: relative;
+			bottom: 90px;
+		}
+
+		.kanan9 {
+			float: right;
+			margin-right: -400px;
+			position: relative;
+			bottom: 45px;
+		}
+
+		.kanan10 {
+			float: right;
+			margin-right: 500px;
+			position: relative;
+			bottom: 28px;
+		}
+
+		.kanan11 {
+			float: right;
+			margin-right: 400px;
+			position: relative;
+			bottom: 45px;
+		}
+
+		.kanan12 {
+			float: right;
+			margin-right: 200px;
+			position: relative;
+			bottom: 110px;
+		}		
+
+		button {
+			background-color: #04db89;
+			color: white;
+			font-weight: bold;
+			border: #04db89;
+
+		}
+
+
+		/*.clear {
+	clear: left;
+}*/
+
+
+/* Menggunaka micro clearfix */
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+
+
+
+
+	</style>
+</head>
+<body>
+
+	<div class="container cf">
+		
+		<div class="header"></div>
+
+		<h1>FORMULIR APLIKASI PEMBUKAAN REKENING INVESTOR (PERORANGAN)</h1>
+
+		<br><br>
+		<p>Nama Lengkap Sesuai KTP *</p>
+		<input type="text" id="nama" style="width: 400px;">
+
+		<div class="kanan1">
+			<p>Jenis Kelamin *</p>
+			<input type="radio" id="cewe" name="JK" value="cewe"> <label for="cewe">Perempuan</label>
+			<input type="radio" id="cowo" name="JK" value="cowo"> <label for="cowo">Laki-laki</label>
+		</div>
+
+		<p>Tempat Lahir *</p>
+		<input type="text" id="tempat_lahir">
+
+		<div class="kanan2">
+			<p>Tanggal Lahir *</p>
+			<input type="date" id="tgl_lahir"> 
+		</div>
+
+		<div class="kanan3">
+			<p>Status Menikah *</p> 
+			<input type="radio" id="menikah" name="status" value="menikah"> <label for="menikah">Menikah</label>
+			<input type="radio" id="Lajang" name="status" value="Lajang"> <label for="Lajang">Lajang</label>
+			<input type="radio" id="Janda/Duda" name="status" value="Janda/Duda"> <label for="Janda/Duda">Janda/Duda</label>
+		</div>
+
+		<p>Agama *</p>
+		<select>
+			<option value="Islam">Islam</option>
+			<option value="Kristen">Kristen</option>
+			<option value="Hindu">Hindu</option>
+			<option value="Budha">Budha</option>
+			<option value="Kong hu cu">Kong hu cu</option>
+		</select>
+
+		<div class="kanan4">
+			<p>Nama Ibu Kandung *</p>
+			<input type="text" id="ibu">
+		</div>
+
+		<br>
+		<label for="tanda_pengenal">Upload Tanda Pengenal *</label>
+		<input type="file">
+
+		<br>
+		<div class="kanan5">
+			<label for="jenis_pengenal">Jenis Tanda Pengenal *</label><br>
+			<select id="jenis_pengenal" style="width: 150px;">
+				<option value="KTP">KTP</option>
+				<option value="SIM">SIM</option>
+				<option value="Pasport">Pasport</option>
+			</select>
+		</div>
+
+		<div class="kanan6">
+			<label for="nomor">Nomor *</label><br>
+			<input type="text" id="nomor">
+		</div>
+
+		<br>
+		<p>Tempat Terbit *</p>
+		<input type="text" id="tempat_terbit" style="margin-bottom: 10px;">
+
+		<div class="kanan7">
+			<p>Tahun Terbit *</p>
+			<input type="date">
+		</div>
+
+		<div class="kanan8">
+			<p>Berlaku s/d *</p>
+			<input type="date">
+		</div>
+
+		<div class="kanan9">
+			<input type="checkbox" id="seumur_hidup"> <label for="seumur_hidup">Seumur Hidup</label>
+		</div>
+
+
+		<p>Kewarganegaraan</p>
+		<input type="radio" id="WNI" name="kewarganegaraan" value="WNI"> <label for="WNI">WNI</label>
+		<input type="radio" id="WNA" name="kewarganegaraan" value="WNA"> <label for="WNA">WNA</label>
+
+		<div class="kanan10">
+			<input type="text" id="asal_wna">
+		</div>
+
+		<p>NPWP</p>
+		<input type="radio" id="tidak_ada" name="kewarganegaraan" value="tidak_ada"> <label for="tidak_ada">Tidak Ada</label>
+		<input type="radio" id="ada" name="kewarganegaraan" value="ada"> <label for="ada">Ada</label>
+
+		<p>Nomor NPWP *</p>
+		<input type="text" id="no_npwp">
+
+		<div class="kanan11">
+			<p>Tempat Terbit *</p>
+			<input type="text" id="no_npwp">
+		</div>
+
+		<div class="kanan12">
+			<p>Tahun Terbit *</p>
+			<input type="date" id="tahun_terbit">
+		</div>
+
+
+
+
+
+
+
+
+
+
+		<br><br><br><br><br><br><br>
+		<a href="formulir1.html"> <button>Kembali</button> </a>
+		<a href="formulir3.html">
+		<button style="margin-left:500px;">Selanjutnya</button></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</div>
+	
+</body>
+</html>

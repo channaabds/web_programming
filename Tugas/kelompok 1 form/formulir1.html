@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Formulir page 1 aplikasi pembukaan rekening BNI</title>
+
+	<style>
+
+		body {
+			font-family: arial;
+			color: #04db89;
+		}
+
+		h1 {
+			text-align: center;
+			font-size: 16px;
+		}
+		.container {
+			width: 800px;
+			margin: auto;
+			background-color: #ededeb;
+		}
+
+		.header {
+			width: 800px;
+			height: 70px;
+			background-color: #eddc6d;
+		}
+
+		p {
+			font-size: 14px;
+			font-weight: bold;
+		}
+
+		label {
+			font-size: 14px;
+			font-weight: bold;
+		}
+
+		.kanan1, .kanan2, .kanan3 {
+			float: right;
+			margin-right: 300px;
+			position: relative;
+			bottom: 45px;
+			
+		}
+
+		button {
+			background-color: #04db89;
+			color: white;
+			font-weight: bold;
+			border: #04db89;
+
+		}
+
+		input:invalid,
+		input:required{
+			border: none;
+            border-radius: 0px;
+		}
+
+
+		/*.clear {
+	clear: left;
+}*/
+
+
+/* Menggunaka micro clearfix */
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+
+
+
+
+	</style>
+</head>
+<body>
+
+	<div class="container cf">
+		
+		<div class="header"></div>
+
+		<h1>FORMULIR APLIKASI PEMBUKAAN REKENING INVESTOR (PERORANGAN)</h1>
+
+
+		<form action="" method="post" autocomplete="off">
+
+		<p>Rekening *</p> 
+		<input type="radio" id="ada" name="rekening" value="ada" autofocus required minlength="5" maxlength="20" oninvalid="this.setCustomValidity('Ini Harus Diisi')" oninput="this.setCustomValidity('')"> <label for="ada">Rek. Yang ada</label>
+		<input type="radio" id="baru" name="rekening" value="baru"> <label for="baru">Rek. Baru</label>
+
+		<div class="kanan1">
+			<p>Nomor Rekening *</p>
+			<input type="text" id="no.rek">
+		</div>
+
+		<br><br><br>
+		<p>CIF *</p> 
+		<input type="radio" id="cif_lama" name="cif" value="cif_lama"> <label for="cif_lama">Rek. Yang ada</label>
+		<input type="radio" id="cif_baru" name="cif" value="cif_baru"> <label for="cif_baru">Rek. Baru</label>
+
+		<div class="kanan2">
+			<p>Nomor CIF *</p>
+			<input type="text" id="no.cif">
+		</div>
+
+		<br><br><br>
+		<p>Nomor SID *</p>
+		<input type="text" id="no.sid">
+
+		<div class="kanan3">
+			<p>Nomor Sub Rekening Efek *</p>
+			<input type="text" id="no.sub-rek">
+		</div>
+
+		<br><br><br><br>
+	
+		<a href="formulir2.html">
+		<button type="submit" style="margin-left:500px;">Selanjutnya</button></a>
+
+		</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</div>
+	
+</body>
+</html>
